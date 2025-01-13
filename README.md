@@ -6,7 +6,8 @@ The videos captured the participants from the moment they stepped onto the jump 
 
 <p align="center" width="100%">
     <img width="100%" src="./imgs/table.png"> 
-</p>*Description of device characteristics*
+    <em>Description of device characteristics</em>
+</p>
 
 
 ## Landmark extraction
@@ -14,7 +15,8 @@ We utilized MediaPipe (https://developers.google.com/mediapipe), an open-source 
 
 <p align="center" width="100%">
     <img width="100%" src="./imgs/landmark.png"> 
-</p>*Time-dependent trajectory of 33 pose landmark points detected by deep learning motion analysis (MediaPipe algorithm) in a two-legged vertical countermovement jump video clip*
+    <em>Time-dependent trajectory of 33 pose landmark points detected by deep learning motion analysis (MediaPipe algorithm) in a two-legged vertical countermovement jump video clip</em>
+</p>
 
 ## Jump parameters calculation
 The filtered points were calculated for speed, acceleration, force, and power based on the movement of each point. The results calculated for 33 points were then aggregated on a patient-by-patient basis. The underlying methods will be made available soon.
