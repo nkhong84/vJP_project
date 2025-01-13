@@ -7,6 +7,7 @@ The videos captured the participants from the moment they stepped onto the jump 
 <p align="center" width="100%">
     <img width="100%" src="./imgs/table.png"> 
 </p>
+
 *Description of device characteristics*
 
 
@@ -16,6 +17,7 @@ We utilized MediaPipe (https://developers.google.com/mediapipe), an open-source 
 <p align="center" width="100%">
     <img width="100%" src="./imgs/landmark.png"> 
 </p>
+
 *Time-dependent trajectory of 33 pose landmark points detected by deep learning motion analysis (MediaPipe algorithm) in a two-legged vertical countermovement jump video clip*
 
 ## Jump parameters calculation
