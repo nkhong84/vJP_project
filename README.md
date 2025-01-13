@@ -1,5 +1,5 @@
 # Video-estimated peak jump power using deep learning is associated with sarcopenia and low physical performance in adults
-Code for "Video-estimated peak jump power using deep learning is associated with sarcopenia and low physical performance in adults" The underlying code will be made available soon.
+Code for "Video-estimated peak jump power using deep learning is associated with sarcopenia and low physical performance in adults". 
 
 ## Video clip processing
 The videos captured the participants from the moment they stepped onto the jump force plate until they left it. Each video included three single jumps. All videos were manually edited to show each jump in a two-second clip at a rate of 120 frames per second. These video clips were then synchronized with the corresponding jumping mechanography parameters for each jump. Given the practical challenges of manually cropping each video to two seconds, we have developed an automatic jump motion detection system. For each jump, a movement is considered a jump if there's a displacement exceeding a certain threshold (3 pixels) from the initial point, with the direction of the movement being noted. Considering the counter movement that occurs just before the jump, movements in the negative direction (downwards) are captured to predict the timing of the jump.
